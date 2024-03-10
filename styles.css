@@ -68,6 +68,10 @@ nav a{
   text-decoration: none;
  
 } 
+
+a:hover {
+    background-color: #00ff00;  
+  }
 @media screen and (max-width: 768px) {
     body { 
         margin: 10; 
@@ -106,6 +110,15 @@ main {
   text-align: center;
   color: #1e3753;
 }
+.img {
+    width: 70vw;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .img:hover {
+    transform: scale(1.1);
+  }
 .service-card {
   background-color: #f0e130; /* Dark Yellow */
   color: #154734; /* Dark Green */
