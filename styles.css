@@ -1,90 +1,88 @@
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #1e3753; /* Sea Blue */
-    color: white; 
-    text-align: center;
-    width: 100%;
+  background-color: #1e3753; /* Sea Blue */
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 .logo {
-    margin-top: 30px;
-    width: 20vw;
-    margin-left: 10vw;
+  margin-top: 30px;
+  width: 20vw;
+  margin-left: 10vw;
 }
-
 
 .logo2 {
-    margin-top: 30px;
-    width: 10vw;
-     
+  margin-top: 30px;
+  width: 10vw;
 }
-
 
 nav {
-    color: white;
-    padding: 10px;
-    text-align: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 nav a {
-color: #1e3753;
-border-radius: 20px;
-padding: 10px;
-background-color: #f0e130;
-    text-decoration: none;
+  color: #1e3753;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f0e130;
+  text-decoration: none;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 footer {
-    background-color: #1e3753; /* Sea Blue */
-    color: white;
-    text-align: center;
-    padding: 10px; 
-    bottom: 0;
-    width: 100%;
+  background-color: #1e3753; /* Sea Blue */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
 }
-hr {width: 80vw;}
+hr {
+  width: 80vw;
+}
 main {
-     
-text-align: center;
-color: #1e3753;
+  text-align: center;
+  color: #1e3753;
 }
 .service-card {
-    background-color: #f0e130; /* Dark Yellow */
-    color: #154734; /* Dark Green */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    display: inline-block;
-    text-align: center;
+  background-color: #f0e130; /* Dark Yellow */
+  color: #154734; /* Dark Green */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: inline-block;
+  text-align: center;
 }
 
 .gallery {
-    /* Add gallery styles */
+  /* Add gallery styles */
 }
 
 .team {
-    /* Add team styles */
+  /* Add team styles */
 }
 
 .about {
-    /* Add about styles */
+  /* Add about styles */
 }
 
 .contact {
-    /* Add contact styles */
+  /* Add contact styles */
 }
