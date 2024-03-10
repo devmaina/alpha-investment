@@ -2,6 +2,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  text-align: center;
+  background-color: azure;
 }
 
 .hamburger {
@@ -66,6 +69,9 @@ nav a{
  
 } 
 @media screen and (max-width: 768px) {
+    body { 
+        margin: 10; 
+      }
     nav a {
       display: none;
     }
@@ -88,9 +94,10 @@ footer {
   background-color: #1e3753; /* Sea Blue */
   color: white;
   text-align: center;
-  padding: 10px;
-  bottom: 0;
-  width: 100%;
+  padding: 10px; 
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 hr {
   width: 80vw;
@@ -102,11 +109,11 @@ main {
 .service-card {
   background-color: #f0e130; /* Dark Yellow */
   color: #154734; /* Dark Green */
-  padding: 20px;
-  margin: 20px;
-  border-radius: 8px;
+  padding: 20px; 
+  border-radius: 30px;
+  margin-bottom: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 80vw;
   display: inline-block;
   text-align: center;
 }
