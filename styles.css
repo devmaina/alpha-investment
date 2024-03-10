@@ -22,7 +22,7 @@ body {
     border-radius: 20px;
     background-color: #c5c212;
     margin: 6px 0;
-    transition: transform 0.5s ease;
+    transition: transform 0.2s ease;
   }
 
   .hamburger:active .line:first-child {
@@ -102,10 +102,9 @@ footer {
   width: 80%;
   margin: 0 auto;
   border-radius: 30px;
-}
-hr {
-  width: 80vw;
-}
+} 
+
+
 main {
   text-align: center;
   color: #1e3753;
@@ -113,17 +112,18 @@ main {
 .img {
     width: 70vw;
     height: auto;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
   }
   
   .img:hover {
     transform: scale(1.1);
   }
+
 .service-card {
   background-color: #f0e130; /* Dark Yellow */
   color: #154734; /* Dark Green */
   padding: 20px; 
-  border-radius: 30px;
+  border-radius: 50px;
   margin-bottom: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 80vw;
