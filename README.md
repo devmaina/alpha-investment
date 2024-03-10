@@ -1,6 +1,6 @@
 # alpha-investment
 
-alpha-investment
+Alpha-investment
 
 # Alpha Investment - Your Complete IT Solution Provider
 
