@@ -68,6 +68,15 @@ footer a {
 }
 nav a{
   color: #1e3753;
+   
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f0e130;
+  text-decoration: none;
+} 
+#menu a{
+  color: #1e3753;
   display: block; 
   margin: 10px;
   border-radius: 20px;
