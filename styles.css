@@ -14,6 +14,7 @@ body {
     top:1vw;
     right:5vw;
     position:absolute;
+    z-index: 999;
   }
 
   .line {
@@ -58,19 +59,43 @@ header {
   height: 5vw; 
 
 } 
- 
+ .logo a {
+  background-color: red;
+ }
+footer a {
+  text-decoration: none;
+  color: white;
+}
 nav a{
   color: #1e3753;
-  display: inline-block;
+  display: block; 
+  margin: 10px;
   border-radius: 20px;
   padding: 10px;
   background-color: #f0e130;
   text-decoration: none;
- 
 } 
+
+#menu { 
+  display: flex;
+  position: fixed; 
+  flex-direction: column; 
+  padding: 20vw;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+}
+
+
+
+
+
 
 a:hover {
     background-color: #00ff00;  
+    border-radius: 20px;
   }
 
   
@@ -78,7 +103,7 @@ a:hover {
     body { 
         margin: 10px; 
       }
-    nav a {
+    #menupc a {
       display: none;
     }
     

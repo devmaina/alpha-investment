@@ -13,26 +13,49 @@
 </head>
 
 <body>
+
+    
     <header>
-        <nav>
+        <nav id="menupc">
             <ul>
                 <li> <img src="logo.png" class="logo" alt="alpha investment logo">
                 </li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
                 <li><a href="about.html">About foundation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <!-- <li><a href="gallery.html">Gallery</a></li> -->
+
+            </ul>
+        </nav>  <nav id="menu">
+            <ul>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About foundation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
                 <!-- <li><a href="gallery.html">Gallery</a></li> -->
 
             </ul>
         </nav>
 
 
-        <div class="hamburger">
+        <div class="hamburger" onclick="toggleMenu()">
             <hr class="line">
             <hr class="line">
         </div>
+
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById("menu");
+                menu.style.display = (menu.style.display === "block") ? "none" : "block";
+            }
+        </script>
+
+
 
     </header>
 
@@ -45,16 +68,30 @@
 
                 OUR SERVICES <br>
             ☑️WEB DESIGN & DEVELOPMENT 
+            ☑️IT INTEGRATED SERVICES
+            ☑️SOFTWARE & H/W CONSULTANCY
+            ☑️NETWORKING & STRCUTURED CABLING
+            ☑️BRAND & PRINT
+            ☑️DATA RECOVERY 
+            ☑️POS SOFTWARE            
             ☑️BIOMETRIC TIME ATTENDANCE 
             ☑️CCTV & SPY CAMERA INSTALLATION 
-            ☑️DATA RECOVERY 
-            ☑️POS SOFTWARE
-            ☑️BRANDING /PRINTER 
+            
             </p>
-            <h2>Alpha - Tech Hands On</h2>
+            <h4><em>Alpha - Tech Hands On</em></h4>
 
             <br>
           
+            <div class="service-card">
+                <h3>System Upgrades</h3>
+                <p>
+                <h4>Enhance Your System's Performance</h4>
+                <p>Stay up-to-date with our system upgrade services. We enhance the performance of your devices by
+                    upgrading hardware and software components. Ideal for individuals and businesses seeking improved
+                    efficiency.</p>
+                </p>
+            </div>
+
             <div class="service-card">
                 <h3>Web development and consultation</h3>
                 <p>
@@ -62,16 +99,6 @@
                 <p>Elevate your online presence with our expert web design services. We craft visually appealing and
                     user-friendly websites tailored to meet your unique needs, catering to businesses and individuals.
                 </p>
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Graphic Design</h3>
-                <p>
-                <h4>Visually Striking Graphics</h4>
-                <p>Transform your brand with our captivating graphic design solutions. From logos to marketing
-                    materials, our designs leave a lasting impression. Ideal for businesses and individuals seeking a
-                    distinct visual identity.</p>
                 </p>
             </div>
 
@@ -86,16 +113,6 @@
 
            
             <div class="service-card">
-                <h3>System Upgrades</h3>
-                <p>
-                <h4>Enhance Your System's Performance</h4>
-                <p>Stay up-to-date with our system upgrade services. We enhance the performance of your devices by
-                    upgrading hardware and software components. Ideal for individuals and businesses seeking improved
-                    efficiency.</p>
-                </p>
-            </div>
-
-            <div class="service-card">
                 <h3>IT Consultation</h3>
                 <p>
                 <h4>Strategic IT Guidance</h4>
@@ -103,24 +120,13 @@
                     strategic guidance for individuals and businesses, ensuring optimal use of technology resources.</p>
                 </p>
             </div>
-
-
-            <div class="service-card">
-                <h3>IT Training</h3>
-                <p>
-                <h4>Empower Your Team with IT Skills</h4>
-                <p>Enhance your team's proficiency with our specialized IT training. Tailored programs for individuals
-                    and businesses looking to stay ahead in the ever-evolving technology landscape.</p>
-                </p>
-            </div>
-
-            <!-- Repeat the structure for other services -->
+ 
 
             <div class="service-card">
                 <h3>Installation Services</h3>
                 <p>
                 <h4>Seamless Setup and Installation</h4>
-                <p>Our experts provide efficient installation services, ensuring a smooth setup for your devices and
+                <p>Our experts provide efficient installation services for OS and POS systems, ensuring a smooth setup for your devices and
                     systems. Catering to both individuals and businesses seeking hassle-free installations.</p>
                 </p>
             </div>
@@ -133,26 +139,7 @@
                     robust networks for businesses and individuals, optimizing performance and security.</p>
                 </p>
             </div>  
-
-            <div class="service-card">
-                <h3>System Upgrades</h3>
-                <p>
-                <h4>Enhance Your System's Performance</h4>
-                <p>Stay up-to-date with our system upgrade services. We enhance the performance of your devices by
-                    upgrading hardware and software components. Ideal for individuals and businesses seeking improved
-                    efficiency.</p>
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>IT Consultation</h3>
-                <p>
-                <h4>Strategic IT Guidance</h4>
-                <p>Receive expert IT consultation to align technology with your business goals. Our consultants provide
-                    strategic guidance for individuals and businesses, ensuring optimal use of technology resources.</p>
-                </p>
-            </div>
-
+  
             <!-- Repeat the structure for other services -->
 
             <!-- You can continue this structure for the remaining services -->
@@ -180,10 +167,12 @@
 
     </main>
     <footer>
+        <p>&copy;<a href="about.html">About foundation</a> </p>
         <p>&copy; 2023 Alpha Investment</p>
-        <p>site design & development by <a href="www.ibconcept.xyz"
-                style="text-decoration: none; background-color: yellow;">ibconcept</a></p>
-    </footer>
+        <p style="font-size: x-small;">Design & developed by <a href="www.ibconcept.xyz"
+                style="text-decoration: none;">ibconcept</a></p>
+   
+            </footer>
 </body>
 
 </html>
