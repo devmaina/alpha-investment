@@ -72,9 +72,11 @@ nav a{
 a:hover {
     background-color: #00ff00;  
   }
+
+  
 @media screen and (max-width: 768px) {
     body { 
-        margin: 10; 
+        margin: 10px; 
       }
     nav a {
       display: none;
